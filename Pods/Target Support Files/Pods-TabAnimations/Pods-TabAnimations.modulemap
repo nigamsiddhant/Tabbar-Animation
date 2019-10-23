@@ -1,0 +1,6 @@
+framework module Pods_TabAnimations {
+  umbrella header "Pods-TabAnimations-umbrella.h"
+
+  export *
+  module * { export * }
+}

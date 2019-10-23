@@ -7,15 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3502887C236055F200652376 /* MenuAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35028866236055F100652376 /* MenuAssets.xcassets */; };
+		3502887D236055F200652376 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35028868236055F200652376 /* Constants.swift */; };
+		3502887E236055F200652376 /* CircleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502886A236055F200652376 /* CircleTransition.swift */; };
+		3502887F236055F200652376 /* TabSwitcherMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502886C236055F200652376 /* TabSwitcherMenuItem.swift */; };
+		35028880236055F200652376 /* UIImage+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502886E236055F200652376 /* UIImage+Bundle.swift */; };
+		35028881236055F200652376 /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502886F236055F200652376 /* Array+Safe.swift */; };
+		35028882236055F200652376 /* CAAnimation+OpacityAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35028870236055F200652376 /* CAAnimation+OpacityAnimation.swift */; };
+		35028883236055F200652376 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35028872236055F200652376 /* PopoverViewController.swift */; };
+		35028884236055F200652376 /* ColorMatchTabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35028873236055F200652376 /* ColorMatchTabsViewController.swift */; };
+		35028885236055F200652376 /* ColorTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35028875236055F200652376 /* ColorTabs.swift */; };
+		35028886236055F200652376 /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35028876236055F200652376 /* CircleMenu.swift */; };
+		35028887236055F200652376 /* ExtendedNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35028877236055F200652376 /* ExtendedNavigationBar.swift */; };
+		35028888236055F200652376 /* ScrollMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35028878236055F200652376 /* ScrollMenu.swift */; };
+		35028889236055F200652376 /* VerticalGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35028879236055F200652376 /* VerticalGradientView.swift */; };
+		3502888A236055F200652376 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3502887A236055F200652376 /* MenuView.swift */; };
 		350831BD235F02E800BF22DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350831BC235F02E800BF22DF /* AppDelegate.swift */; };
 		350831BF235F02E800BF22DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350831BE235F02E800BF22DF /* SceneDelegate.swift */; };
 		350831C1235F02E800BF22DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350831C0235F02E800BF22DF /* ViewController.swift */; };
 		350831C4235F02E800BF22DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350831C2235F02E800BF22DF /* Main.storyboard */; };
 		350831C6235F02EC00BF22DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350831C5235F02EC00BF22DF /* Assets.xcassets */; };
 		350831C9235F02EC00BF22DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350831C7235F02EC00BF22DF /* LaunchScreen.storyboard */; };
+		350831D1235F072400BF22DF /* TabSwitcherItemsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350831D0235F072300BF22DF /* TabSwitcherItemsProvider.swift */; };
+		350831D3235F19D600BF22DF /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350831D2235F19D600BF22DF /* ViewController2.swift */; };
+		44C4EAEAF876E3D2BDA58DAE /* Pods_TabAnimations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F832C07D8C834E45539CB980 /* Pods_TabAnimations.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00C52E5B1771F8D06DC16F45 /* Pods-TabAnimations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabAnimations.release.xcconfig"; path = "Target Support Files/Pods-TabAnimations/Pods-TabAnimations.release.xcconfig"; sourceTree = "<group>"; };
+		35028864236055F100652376 /* ColorMatchTabs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorMatchTabs.h; sourceTree = "<group>"; };
+		35028866236055F100652376 /* MenuAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MenuAssets.xcassets; sourceTree = "<group>"; };
+		35028868236055F200652376 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3502886A236055F200652376 /* CircleTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleTransition.swift; sourceTree = "<group>"; };
+		3502886C236055F200652376 /* TabSwitcherMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabSwitcherMenuItem.swift; sourceTree = "<group>"; };
+		3502886E236055F200652376 /* UIImage+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Bundle.swift"; sourceTree = "<group>"; };
+		3502886F236055F200652376 /* Array+Safe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Safe.swift"; sourceTree = "<group>"; };
+		35028870236055F200652376 /* CAAnimation+OpacityAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAAnimation+OpacityAnimation.swift"; sourceTree = "<group>"; };
+		35028872236055F200652376 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		35028873236055F200652376 /* ColorMatchTabsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorMatchTabsViewController.swift; sourceTree = "<group>"; };
+		35028875236055F200652376 /* ColorTabs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTabs.swift; sourceTree = "<group>"; };
+		35028876236055F200652376 /* CircleMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleMenu.swift; sourceTree = "<group>"; };
+		35028877236055F200652376 /* ExtendedNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendedNavigationBar.swift; sourceTree = "<group>"; };
+		35028878236055F200652376 /* ScrollMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollMenu.swift; sourceTree = "<group>"; };
+		35028879236055F200652376 /* VerticalGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalGradientView.swift; sourceTree = "<group>"; };
+		3502887A236055F200652376 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		350831B9235F02E800BF22DF /* TabAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		350831BC235F02E800BF22DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		350831BE235F02E800BF22DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +59,10 @@
 		350831C5235F02EC00BF22DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		350831C8235F02EC00BF22DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		350831CA235F02EC00BF22DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350831D0235F072300BF22DF /* TabSwitcherItemsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabSwitcherItemsProvider.swift; sourceTree = "<group>"; };
+		350831D2235F19D600BF22DF /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		53A73F1245BC7946EBA375E3 /* Pods-TabAnimations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabAnimations.debug.xcconfig"; path = "Target Support Files/Pods-TabAnimations/Pods-TabAnimations.debug.xcconfig"; sourceTree = "<group>"; };
+		F832C07D8C834E45539CB980 /* Pods_TabAnimations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabAnimations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +70,107 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C4EAEAF876E3D2BDA58DAE /* Pods_TabAnimations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D19AE39421FBA04B31B00CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F832C07D8C834E45539CB980 /* Pods_TabAnimations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35028863236055D900652376 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				35028867236055F200652376 /* Classes */,
+				35028864236055F100652376 /* ColorMatchTabs.h */,
+				35028865236055F100652376 /* Resources */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		35028865236055F100652376 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35028866236055F100652376 /* MenuAssets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		35028867236055F200652376 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				35028868236055F200652376 /* Constants.swift */,
+				35028869236055F200652376 /* Transition */,
+				3502886B236055F200652376 /* Models */,
+				3502886D236055F200652376 /* Extensions */,
+				35028871236055F200652376 /* ViewController */,
+				35028874236055F200652376 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		35028869236055F200652376 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				3502886A236055F200652376 /* CircleTransition.swift */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		3502886B236055F200652376 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3502886C236055F200652376 /* TabSwitcherMenuItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3502886D236055F200652376 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3502886E236055F200652376 /* UIImage+Bundle.swift */,
+				3502886F236055F200652376 /* Array+Safe.swift */,
+				35028870236055F200652376 /* CAAnimation+OpacityAnimation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		35028871236055F200652376 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				35028872236055F200652376 /* PopoverViewController.swift */,
+				35028873236055F200652376 /* ColorMatchTabsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		35028874236055F200652376 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35028875236055F200652376 /* ColorTabs.swift */,
+				35028876236055F200652376 /* CircleMenu.swift */,
+				35028877236055F200652376 /* ExtendedNavigationBar.swift */,
+				35028878236055F200652376 /* ScrollMenu.swift */,
+				35028879236055F200652376 /* VerticalGradientView.swift */,
+				3502887A236055F200652376 /* MenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		350831B0235F02E700BF22DF = {
 			isa = PBXGroup;
 			children = (
 				350831BB235F02E800BF22DF /* TabAnimations */,
 				350831BA235F02E800BF22DF /* Products */,
+				A69513415AEF059AD24B0B94 /* Pods */,
+				1D19AE39421FBA04B31B00CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +185,27 @@
 		350831BB235F02E800BF22DF /* TabAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				35028863236055D900652376 /* Tab */,
 				350831BC235F02E800BF22DF /* AppDelegate.swift */,
 				350831BE235F02E800BF22DF /* SceneDelegate.swift */,
+				350831D0235F072300BF22DF /* TabSwitcherItemsProvider.swift */,
 				350831C0235F02E800BF22DF /* ViewController.swift */,
 				350831C2235F02E800BF22DF /* Main.storyboard */,
 				350831C5235F02EC00BF22DF /* Assets.xcassets */,
 				350831C7235F02EC00BF22DF /* LaunchScreen.storyboard */,
 				350831CA235F02EC00BF22DF /* Info.plist */,
+				350831D2235F19D600BF22DF /* ViewController2.swift */,
 			);
 			path = TabAnimations;
+			sourceTree = "<group>";
+		};
+		A69513415AEF059AD24B0B94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53A73F1245BC7946EBA375E3 /* Pods-TabAnimations.debug.xcconfig */,
+				00C52E5B1771F8D06DC16F45 /* Pods-TabAnimations.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 350831CD235F02EC00BF22DF /* Build configuration list for PBXNativeTarget "TabAnimations" */;
 			buildPhases = (
+				C4AE84E094AA48D53F65E888 /* [CP] Check Pods Manifest.lock */,
 				350831B5235F02E800BF22DF /* Sources */,
 				350831B6235F02E800BF22DF /* Frameworks */,
 				350831B7235F02E800BF22DF /* Resources */,
@@ -128,19 +270,61 @@
 				350831C9235F02EC00BF22DF /* LaunchScreen.storyboard in Resources */,
 				350831C6235F02EC00BF22DF /* Assets.xcassets in Resources */,
 				350831C4235F02E800BF22DF /* Main.storyboard in Resources */,
+				3502887C236055F200652376 /* MenuAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4AE84E094AA48D53F65E888 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabAnimations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		350831B5235F02E800BF22DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3502887F236055F200652376 /* TabSwitcherMenuItem.swift in Sources */,
+				350831D3235F19D600BF22DF /* ViewController2.swift in Sources */,
+				35028884236055F200652376 /* ColorMatchTabsViewController.swift in Sources */,
+				3502888A236055F200652376 /* MenuView.swift in Sources */,
 				350831C1235F02E800BF22DF /* ViewController.swift in Sources */,
+				35028880236055F200652376 /* UIImage+Bundle.swift in Sources */,
+				35028885236055F200652376 /* ColorTabs.swift in Sources */,
+				35028888236055F200652376 /* ScrollMenu.swift in Sources */,
+				35028883236055F200652376 /* PopoverViewController.swift in Sources */,
+				35028889236055F200652376 /* VerticalGradientView.swift in Sources */,
 				350831BD235F02E800BF22DF /* AppDelegate.swift in Sources */,
+				3502887E236055F200652376 /* CircleTransition.swift in Sources */,
+				35028886236055F200652376 /* CircleMenu.swift in Sources */,
+				35028881236055F200652376 /* Array+Safe.swift in Sources */,
+				350831D1235F072400BF22DF /* TabSwitcherItemsProvider.swift in Sources */,
+				35028887236055F200652376 /* ExtendedNavigationBar.swift in Sources */,
 				350831BF235F02E800BF22DF /* SceneDelegate.swift in Sources */,
+				35028882236055F200652376 /* CAAnimation+OpacityAnimation.swift in Sources */,
+				3502887D236055F200652376 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +466,13 @@
 		};
 		350831CE235F02EC00BF22DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A73F1245BC7946EBA375E3 /* Pods-TabAnimations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ7XCV3ZTE;
 				INFOPLIST_FILE = TabAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +486,13 @@
 		};
 		350831CF235F02EC00BF22DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00C52E5B1771F8D06DC16F45 /* Pods-TabAnimations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ7XCV3ZTE;
 				INFOPLIST_FILE = TabAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
